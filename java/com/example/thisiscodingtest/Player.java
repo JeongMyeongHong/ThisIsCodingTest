@@ -17,6 +17,6 @@ import com.example.thisiscodingtest.part02.ch3.GreedyImpl;
 public class Player {
     public static void main(String[] args) {
     Greedy greedy = new GreedyImpl();
-    greedy.changeMoney();
+    greedy.toNumberOne();
     }
 }
