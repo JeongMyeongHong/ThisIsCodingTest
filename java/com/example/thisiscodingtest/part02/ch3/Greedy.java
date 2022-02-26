@@ -5,7 +5,8 @@ package com.example.thisiscodingtest.part02.ch3;
  * fileName      :   greedy
  * author        :   JeongMyeongHong
  * date          :   2022-02-23
- * desc          :
+ * desc          :  현재 상황에서 지금 당장 좋은것만 고르는 방법
+ *                  현재의 선택이 나중에 미칠 영향에 대해서는 고려하지 않는다.
  * ============================================
  * DATE             AUTHOR              NOTE
  * ============================================
