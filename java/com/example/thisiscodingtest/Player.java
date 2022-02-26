@@ -2,6 +2,10 @@ package com.example.thisiscodingtest;
 
 import com.example.thisiscodingtest.part02.ch3.Greedy;
 import com.example.thisiscodingtest.part02.ch3.GreedyImpl;
+import com.example.thisiscodingtest.part02.ch4.Implementation;
+import com.example.thisiscodingtest.part02.ch4.ImplementationImpl;
+
+import java.util.Scanner;
 
 /**
  * packageName   :   com.example.thisiscodingtest
@@ -16,7 +20,10 @@ import com.example.thisiscodingtest.part02.ch3.GreedyImpl;
  */
 public class Player {
     public static void main(String[] args) {
-    Greedy greedy = new GreedyImpl();
-    greedy.toNumberOne();
+        Scanner scanner = new Scanner(System.in);
+//        Greedy greedy = new GreedyImpl();
+//        greedy.toNumberOne();
+        Implementation implementation = new ImplementationImpl();
+        implementation.knight(scanner);
     }
 }
