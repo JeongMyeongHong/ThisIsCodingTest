@@ -24,6 +24,6 @@ public class Player {
 //        Greedy greedy = new GreedyImpl();
 //        greedy.toNumberOne();
         Implementation implementation = new ImplementationImpl();
-        implementation.knight(scanner);
+        implementation.devGame(scanner);
     }
 }
